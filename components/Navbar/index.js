@@ -1,4 +1,4 @@
-import React from "react";
+import Dropdown from "./Dropdown";
 import {
   Nav,
   NavLogoContainer,
@@ -43,7 +43,7 @@ const Navbar = () => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <a>IND</a>
+            <Dropdown />
           </NavBtn>
         </NavbarContainer>
       </Nav>

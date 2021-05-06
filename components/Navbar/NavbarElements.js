@@ -117,3 +117,5 @@ export const NavBtn = styled.nav`
     display: none;
   }
 `;
+
+export const LanguageSelectWrapper = styled.div``;
