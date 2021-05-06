@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### TODO LIST
 
-[ ] Navbar Section
+[x] Navbar Section
 
 [x] Hero Section
 
@@ -35,3 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Created Hero Section ( Unfinished )
 
 - Created Navbar Section ( Unfisinshed )
+
+## 06 / 05 / 2021
+
+- Create Change Language Button On Navbar
