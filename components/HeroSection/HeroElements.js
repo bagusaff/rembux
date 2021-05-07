@@ -2,16 +2,17 @@ import styled from "styled-components";
 import Image from "next/image";
 export const HeroContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #fff;
 `;
 
 export const Wrapper = styled.div`
   max-width: 1152px;
-  height: 100%;
   margin: auto;
   background-image: url("/images/hero-background.png");
   background-repeat: no-repeat;
+  background-position: absolute;
+  padding-bottom: 6rem;
 `;
 
 export const InnerWrapper = styled.div`

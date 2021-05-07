@@ -3,11 +3,10 @@ import {
   DropBtn,
   DropContainer,
   DropMenu,
-  DropMenuActive,
   DropMenuItems,
   DropMenuLinks,
+  FlagImage,
 } from "./DropdownElements";
-import Image from "next/image";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const Dropdown = () => {
@@ -38,7 +37,7 @@ const Dropdown = () => {
     <>
       <DropContainer>
         <DropBtn onClick={onClick}>
-          <Image
+          <FlagImage
             src="/images/indonesia-logo.png"
             alt="Indonesia Language"
             width={20}
@@ -49,7 +48,7 @@ const Dropdown = () => {
         </DropBtn>
         <DropMenu active={isActive} ref={dropdownRef}>
           <DropMenuItems>
-            <Image
+            <FlagImage
               src="/images/indonesia-logo.png"
               alt="Indonesia Language"
               width={20}
@@ -58,7 +57,7 @@ const Dropdown = () => {
             <DropMenuLinks href="/">ID</DropMenuLinks>
           </DropMenuItems>
           <DropMenuItems>
-            <Image
+            <FlagImage
               src="/images/england-logo.png"
               alt="English Language"
               width={20}

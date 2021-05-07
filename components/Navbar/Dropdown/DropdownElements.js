@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Image from "next/image";
 export const DropContainer = styled.div`
   position: relative;
 `;
@@ -52,4 +52,11 @@ export const DropMenuItems = styled.div`
 
 export const DropMenuLinks = styled.a`
   padding: 5px !important;
+`;
+
+export const FlagImage = styled(Image)`
+  max-width: 20px !important;
+  min-height: 20px !important;
+  max-height: 20px !important;
+  min-width: 20px !important;
 `;

@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 [x] Hero Section
 
-[ ] About Section
+[x] About Section
 
 [ ] Project Section
 
@@ -39,3 +39,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## 06 / 05 / 2021
 
 - Create Change Language Button On Navbar
+
+## 07 / 05 / 2021
+
+- Created About Us Section (Finished)
+
+- Continuing Hero Section (Finished)
+
+- Optimizing Flag Icon on Change Language Button
