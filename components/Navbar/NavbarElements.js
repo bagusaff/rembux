@@ -24,7 +24,7 @@ export const NavbarContainer = styled.div`
   justify-content: flex-start;
   height: 60px;
   z-index: 1;
-  width: ${({ scrollNav }) => (scrollNav ? "70%" : "100%")};
+  width: 100%;
   padding: 0 24px;
   max-width: 1440px;
   background: ${({ scrollNav }) => (scrollNav ? "white" : "transparent")};
