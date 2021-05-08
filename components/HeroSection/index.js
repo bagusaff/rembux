@@ -28,7 +28,9 @@ const HeroSection = () => {
               <BodyText>
                 Jika kehidupan mu sekarang sedang berkutat dengan pertanyaan
                 diatas, Rembux adalah solusi tepat untuk membantu menyelesaikan
-                masalahmu. Biaya? Tenang, kamu tentuin sendiri biaya nya.
+                masalahmu.
+                <br />
+                Biaya? Tenang, kamu tentuin sendiri biaya nya.
               </BodyText>
               <BtnLink>Yuk Konsultasi Dulu!</BtnLink>
             </Left>

@@ -12,7 +12,8 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  font-weight: 400;
+  font-weight: 500;
+  padding-top: ${({ scrollNav }) => (scrollNav ? "2rem" : "0")};
   top: 0;
   z-index: 10;
   transition: 0.8s all ease;
@@ -23,9 +24,14 @@ export const NavbarContainer = styled.div`
   justify-content: flex-start;
   height: 60px;
   z-index: 1;
-  width: 100%;
+  width: ${({ scrollNav }) => (scrollNav ? "70%" : "100%")};
   padding: 0 24px;
-  max-width: 1124px;
+  max-width: 1440px;
+  background: ${({ scrollNav }) => (scrollNav ? "white" : "transparent")};
+  border-radius: 5rem;
+  box-shadow: ${({ scrollNav }) =>
+    scrollNav ? " 0px 4px 4px rgba(0, 0, 0, 0.25)" : "none"};
+  transition: 0.8s all ease;
 `;
 
 export const NavLogoContainer = styled.a`
@@ -76,17 +82,18 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled.a`
-  color: white;
+  color: ${({ scrollNav }) => (scrollNav ? "#FC5C7E" : "#fff")};
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  font-weight: 400;
+  font-weight: 500;
   height: 100%;
   cursor: pointer;
   transition: 0.1s all ease-in-out;
   &:hover {
-    border-bottom: 3px solid #fff;
+    border-bottom: ${({ scrollNav }) =>
+      scrollNav ? "3px solid #FC5C7E" : "3px solid #fff"};
   }
 `;
 

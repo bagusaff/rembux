@@ -7,9 +7,9 @@ export const HeroContainer = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 1152px;
+  max-width: 1440px;
   margin: auto;
-  background-image: url("/images/hero-background.png");
+  background-image: url("/images/hero-background-lg.png");
   background-repeat: no-repeat;
   background-position: absolute;
   padding-bottom: 6rem;

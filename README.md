@@ -47,3 +47,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Continuing Hero Section (Finished)
 
 - Optimizing Flag Icon on Change Language Button
+
+## 08 / 05 / 2021
+
+- Optimizing size
+
+- modify navbar on scroll

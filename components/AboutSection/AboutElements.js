@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 1152px;
+  max-width: 1440px;
   margin: auto;
 `;
 
@@ -53,8 +53,9 @@ export const BannerWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1rem;
+  justify-items: center;
   width: 100%;
-  height: 300px;
+  height: 400px;
 `;
 
 export const BannerCard = styled.div`

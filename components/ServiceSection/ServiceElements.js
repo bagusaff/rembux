@@ -7,14 +7,13 @@ export const ServiceContainer = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 1152px;
+  max-width: 1440px;
   margin: auto;
 `;
 
 export const InnerWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 5rem 2rem;
 `;
 
 export const Title = styled.h1`
