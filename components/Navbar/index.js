@@ -15,7 +15,7 @@ import {
 const Navbar = () => {
   const [scrollNav, setScrollNav] = useState(false);
   const scrolled = () => {
-    if (window.scrollY >= 150) {
+    if (window.scrollY >= 250) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -23,19 +23,27 @@ const Navbar = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", scrolled);
-    console.log(scrollNav);
   }, []);
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer scrollNav={scrollNav}>
           <NavLogoContainer>
-            <NavLogo
-              src="/images/rembux-logo.svg"
-              alt="Rembux Logo"
-              width={60}
-              height={38}
-            />
+            {scrollNav ? (
+              <NavLogo
+                src="/images/rembux-logo.svg"
+                alt="Rembux Logo"
+                width={60}
+                height={38}
+              />
+            ) : (
+              <NavLogo
+                src="/images/rembux-logo-light.svg"
+                alt="Rembux Logo"
+                width={60}
+                height={38}
+              />
+            )}
           </NavLogoContainer>
           <MobileIcon></MobileIcon>
           <NavMenu>

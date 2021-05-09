@@ -2,9 +2,6 @@ import styled from "styled-components";
 import Image from "next/image";
 
 export const Nav = styled.nav`
-  background: transparent;
-  /* background:${({ scrollNav }) =>
-    scrollNav ? "#963434" : "transparent"}; */
   height: 60px;
   margin-top: -60px;
   display: flex;
@@ -13,7 +10,9 @@ export const Nav = styled.nav`
   font-size: 1rem;
   position: sticky;
   font-weight: 500;
-  padding-top: ${({ scrollNav }) => (scrollNav ? "2rem" : "0")};
+  background: ${({ scrollNav }) => (scrollNav ? "white" : "transparent")};
+  box-shadow: ${({ scrollNav }) =>
+    scrollNav ? " 0px 4px 4px rgba(0, 0, 0, 0.15)" : "none"};
   top: 0;
   z-index: 10;
   transition: 0.8s all ease;
@@ -27,10 +26,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1440px;
-  background: ${({ scrollNav }) => (scrollNav ? "white" : "transparent")};
   border-radius: 5rem;
-  box-shadow: ${({ scrollNav }) =>
-    scrollNav ? " 0px 4px 4px rgba(0, 0, 0, 0.25)" : "none"};
   transition: 0.8s all ease;
 `;
 
@@ -48,6 +44,7 @@ export const NavLogoContainer = styled.a`
 
 export const NavLogo = styled(Image)`
   width: 12%;
+  transition: 2s all ease;
 `;
 
 export const MobileIcon = styled.div`
