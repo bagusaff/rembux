@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 [x] Services Section
 
-[ ] Project Section
+[x] Project Section
 
 [ ] Testimonials Section
 
@@ -61,3 +61,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - created Services Section (Finished)
 
 - Modify Navbar
+
+## 10 / 05 / 2021
+
+- created Project Section (Finished)
